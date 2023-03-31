@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>weather app</title>
+        <script src="weather.js" defer></script>
+        <link href="main.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <div class="top_bar">
+            <a href="https://github.com/Msuf123" target="_blank"><img src="icons8-github-512.png" alt="github_icon"></a>
+            <a><span>Docs</span></a>
+            
+        </div>
+        <div id="weather_div">
+            <div id="current">
+            <span id="place">Place </span>
+            <span id="max_min">Max-Min temp: </span>
+            </div>
+            <div id="additinal_info">
+                <span id="time"> Time:</span>
+            <span id="condition">Conditon:</span>
+            <span id="wind_speed">Wind speed:</span>
+            </div>
+            <div id="through_out_day">
+                <div class="day_time">
+                    
+                        <span class="time">6:00 AM</span>
+                        <span class="temperture_" id="six_temp">-</span></div>
+            <div class="day_time">
+                <span class="time">9:00 AM</span>
+                <span class="temperture_" id="nine_temp">
+                -</span></div>
+                    <div class="day_time">
+                        <span class="time">1:00 PM</span>
+                        <span class="temperture_" id="one_temp">-</span></div>
+                <div class="day_time">
+                    <span class="time">4:20 PM</span>
+                    <span class="temperture_" id="for_temp">-</span></div>
+                <div class="day_time">
+                    <span class="time">9:00 PM</span>
+                    <span class="temperture_" id="ten">-</span></div>
+                </div>
+                
+                <div class="user_input">
+                   <button type="button" id="get">GET</button>
+                   
+                    <input type="text" placeholder="Eg.New York" id="input_ans">
+                   
+                   <button type="button" id="more_info">Next Day</button>
+                
+                </div>
+        </div>
+    </body>
+</html>
