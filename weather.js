@@ -1,5 +1,5 @@
 const baseurl='http://api.weatherapi.com/v1';
-const api_key='b31b84249476459f9e8190300232803';
+const api_key='Your api Key';
 const api_method='/current.json';
 const forecast='/forecast.json';
 let place;
